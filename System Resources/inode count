@@ -1,0 +1,1 @@
+ find / -xdev -printf '%h\n' | sort | uniq -c | sort -k1nr | head
